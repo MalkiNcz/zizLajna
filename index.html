@@ -1,11 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZL</title>
+    <title>ZizkovskaLajna   </title>
+    <link rel="icon" type="image/x-icon" href="Assets/icon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>WASAP</h1>
+    <div class="blood-splash blood-splash-1"></div>
+    <div class="blood-splash blood-splash-2"></div>
+    <div class="blood-splash blood-splash-3"></div>
+    <div class="blood-splash blood-splash-4"></div>
+
+    <div class="blood-drip blood-drip-1"></div>
+    <div class="blood-drip blood-drip-2"></div>
+    <div class="blood-drip blood-drip-3"></div>
+    <div class="blood-drip blood-drip-4"></div>
+    <div class="blood-drip blood-drip-5"></div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="pixel-text">ZizkovskaLajna</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#game" class="nav-link">Hra</a></li>
+                <li><a href="#download" class="nav-link">Stáhnout</a></li>
+                <li><a href="#about" class="nav-link">O nás</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title pixel-text">ZizkovskaLajna</h1>
+                <p class="hero-subtitle">Pixelart Topdown Shooter vyrobený v Godotu</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">Stáhnout hru</a>
+                    <a href="#game" class="btn btn-secondary">Více o hře</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="game-logo-container">
+                    <div class="game-logo-slot">
+                        <img src="Assets/logo.png" alt="ZizkovskaLajna Logo" class="game-logo-img">
+                        <div class="logo-placeholder">
+                            <span class="pixel-text">Logo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="game" class="game-section">
+        <div class="container">
+            <h2 class="section-title pixel-text">O hře</h2>
+            <div class="game-grid">
+                <div class="game-feature">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Topdown Shooter</h3>
+                    <p>Akční střílečka z ptačí perspektivy plná adrenalinu a taktiky</p>
+                </div>
+                <div class="game-feature">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Pixelart Styl</h3>
+                    <p>Krásná retro grafika inspirovaná klasickými hrami 90. let</p>
+                </div>
+                <div class="game-feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Godot Engine</h3>
+                    <p>Vyrobeno v moderním herním enginu pro plynulý gameplay</p>
+                </div>
+            </div>
+            
+            <div class="screenshots">
+                <h3 class="pixel-text">Screenshoty</h3>
+                <div class="screenshot-grid">
+                    <div class="screenshot-slot">
+                        <img src="Assets/screenshot1.jpg" alt="Screenshot 1" class="screenshot-img">
+                        <div class="screenshot-placeholder">
+                            <span>Screenshot 1</span>
+                        </div>
+                    </div>
+                    <div class="screenshot-slot">
+                        <img src="Assets/screenshot2.jpg" alt="Screenshot 2" class="screenshot-img">
+                        <div class="screenshot-placeholder">
+                            <span>Screenshot 2</span>
+                        </div>
+                    </div>
+                    <div class="screenshot-slot">
+                        <img src="Assets/screenshot3.jpg" alt="Screenshot 3" class="screenshot-img">
+                        <div class="screenshot-placeholder">
+                            <span>Screenshot 3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="download" class="download-section">
+        <div class="container">
+            <h2 class="section-title pixel-text">Stáhnout hru</h2>
+            <div class="download-content">
+                <div class="download-info">
+                    <h3>ZizkovskaLajna v1.0</h3>
+                    <p>První verze naší hry! Zatím je dostupná pouze na Windows, ale pracujeme na dalších platformách.</p>
+                </div>
+                <div class="download-buttons">
+                    <a href="Assets/zizkovskalajna-v1.0.0.0.zip" download class="btn btn-download">
+                        <span>📥</span>
+                        Stáhnout pro Windows
+                    </a>
+                    <p class="download-size">Velikost: ~80MB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title pixel-text">O nás</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Jsme tým složený ze tří studentů SPŠ Třebíč. ZizkovskaLajna je náš první společný projekt a věříme, že si naši hru užijete stejně jako my při jejím vytváření.</p>
+                </div>
+                <div class="team-photos">
+                    <div class="team-member">
+                        <div class="photo-slot">
+                            <img src="Assets/aboutJakub.jpg" alt="Jakub" class="team-photo">
+                            <div class="photo-placeholder">
+                                <span>Jakub</span>
+                            </div>
+                        </div>
+                        <h4 class="team-name">Jakub</h4>
+                    </div>
+                    <div class="team-member">
+                        <div class="photo-slot">
+                            <img src="Assets/aboutJarin.jpg" alt="Jarin" class="team-photo">
+                            <div class="photo-placeholder">
+                                <span>Jarin</span>
+                            </div>
+                        </div>
+                        <h4 class="team-name">Jarin</h4>
+                    </div>
+                    <div class="team-member">
+                        <div class="photo-slot">
+                            <img src="Assets/aboutPremek.png" alt="Přemek" class="team-photo">
+                            <div class="photo-placeholder">
+                                <span>Přemek</span>
+                            </div>
+                        </div>
+                        <h4 class="team-name">Přemek</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="pixel-text">ZizkovskaLajna</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#game">Hra</a>
+                    <a href="#download">Stáhnout</a>
+                    <a href="#about">O nás</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ZizkovskaLajna Team. Všechna práva vyhrazena.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
